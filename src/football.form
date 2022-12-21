@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="football">
+  <grid id="27dc6" binding="panel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="415"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3746b" class="javax.swing.JButton" binding="ACMilanButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="ACMilan"/>
+        </properties>
+      </component>
+      <component id="b84df" class="javax.swing.JButton" binding="realMadridButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Real Madrid"/>
+        </properties>
+      </component>
+      <component id="a46dc" class="javax.swing.JLabel" binding="Result">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.2" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Result:"/>
+        </properties>
+      </component>
+      <component id="1121c" class="javax.swing.JLabel" binding="LastScore">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Last score"/>
+        </properties>
+      </component>
+      <component id="260b7" class="javax.swing.JLabel" binding="Winner">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Winner"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
